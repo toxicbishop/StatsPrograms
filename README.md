@@ -1,43 +1,43 @@
-﻿# StatsPrograms
+# StatsPrograms
 
-A comprehensive collection of Python programs demonstrating statistical analysis, data manipulation, and machine learning techniques. This repository contains 12 programs covering various statistical concepts and implementations.
+A comprehensive collection of Jupyter Notebooks demonstrating statistical analysis, data manipulation, and machine learning techniques. This repository contains 12 programs covering various statistical concepts and implementations.
 
 ## Programs Overview
 
-### 01.py - Data Manipulation with Pandas
+### 01.ipynb - Data Manipulation with Pandas
 
 - DataFrame merging and joining operations
 - Pivot tables and data reshaping
 - Data frame comparison techniques
 
-### 02.py - String Manipulation and Regular Expressions
+### 02.ipynb - String Manipulation and Regular Expressions
 
 - String methods (upper, title, strip, etc.)
 - String splitting and joining
 - Regular expression pattern matching
 - Email and phone number extraction and substitution
 
-### 03.py - Time Series Analysis
+### 03.ipynb - Time Series Analysis
 
 - Time series data generation
 - Daily mean calculations
 - ARIMA model implementation
 - Forecasting and visualization
 
-### 04.py - Descriptive Statistics
+### 04.ipynb - Descriptive Statistics
 
 - Mean, median, and mode calculations
 - Frequency distribution handling
 - Statistical analysis with NumPy and SciPy
 
-### 05.py - Cross-Validation Techniques
+### 05.ipynb - Cross-Validation Techniques
 
 - K-Fold cross-validation
 - Leave-One-Out cross-validation
 - Model evaluation with R-squared metrics
 - Regression model validation
 
-### 06.py - Probability Distributions
+### 06.ipynb - Probability Distributions
 
 - Normal distribution
 - Binomial distribution
@@ -45,42 +45,42 @@ A comprehensive collection of Python programs demonstrating statistical analysis
 - Bernoulli distribution
 - Distribution visualization with Matplotlib
 
-### 07.py - Hypothesis Testing
+### 07.ipynb - Hypothesis Testing
 
 - One-sample t-test
 - Two-sample t-test
 - Statistical significance testing
 - Sample mean and standard deviation calculations
 
-### 08.py - Analysis of Variance (ANOVA)
+### 08.ipynb - Analysis of Variance (ANOVA)
 
 - One-way ANOVA
 - Two-way ANOVA
 - Sum of squares calculations
 - Between-group and within-group variance analysis
 
-### 09.py - Correlation and Regression
+### 09.ipynb - Correlation and Regression
 
 - Pearson correlation coefficient
 - Linear regression implementation
 - Scatter plots and regression line visualization
 - Correlation analysis
 
-### 10.py - Principal Component Analysis (PCA)
+### 10.ipynb - Principal Component Analysis (PCA)
 
 - PCA implementation on Wisconsin Breast Cancer dataset
 - Dimensionality reduction
 - Variance analysis
 - PCA visualization
 
-### 11.py - Linear Discriminant Analysis (LDA)
+### 11.ipynb - Linear Discriminant Analysis (LDA)
 
 - LDA implementation on Iris dataset
 - Classification boundary visualization
 - Feature transformation
 - Discriminant analysis
 
-### 12.py - Linear Regression with Sklearn
+### 12.ipynb - Linear Regression with Sklearn
 
 - Model training and testing
 - Prediction accuracy evaluation
@@ -94,28 +94,28 @@ A comprehensive collection of Python programs demonstrating statistical analysis
 StatsPrograms/
 │
 ├── .github/
-│ └── workflows/ # GitHub Actions workflows
+│   └── workflows/      # GitHub Actions workflows
 │
-├── outputs/ # Generated visualizations and results
+├── outputs/            # Generated visualizations and results
 │
-├── 01.py # Data Manipulation with Pandas
-├── 02.py # String Manipulation and Regular Expressions
-├── 03.py # Time Series Analysis
-├── 04.py # Descriptive Statistics
-├── 05.py # Cross-Validation Techniques
-├── 06.py # Probability Distributions
-├── 07.py # Hypothesis Testing
-├── 08.py # Analysis of Variance (ANOVA)
-├── 09.py # Correlation and Regression
-├── 10.py # Principal Component Analysis (PCA)
-├── 11.py # Linear Discriminant Analysis (LDA)
-├── 12.py # Linear Regression with Sklearn
+├── 01.ipynb            # Data Manipulation with Pandas
+├── 02.ipynb            # String Manipulation and Regular Expressions
+├── 03.ipynb            # Time Series Analysis
+├── 04.ipynb            # Descriptive Statistics
+├── 05.ipynb            # Cross-Validation Techniques
+├── 06.ipynb            # Probability Distributions
+├── 07.ipynb            # Hypothesis Testing
+├── 08.ipynb            # Analysis of Variance (ANOVA)
+├── 09.ipynb            # Correlation and Regression
+├── 10.ipynb            # Principal Component Analysis (PCA)
+├── 11.ipynb            # Linear Discriminant Analysis (LDA)
+├── 12.ipynb            # Linear Regression with Sklearn
 │
-├── requirements.txt # Python dependencies
-└── README.md # Project documentation
+├── requirements.txt    # Python dependencies
+└── README.md           # Project documentation
 ```
 
-## ️ Technologies Used
+## Technologies Used
 
 - **Python 3.x**
 - **NumPy** - Numerical computing
@@ -135,7 +135,7 @@ git clone https://github.com/toxicbishop/StatsPrograms.git
 cd StatsPrograms
 ```
 
-1. Install required dependencies:
+2. Install required dependencies:
 
 ```bash
 pip install -r requirements.txt
@@ -143,13 +143,7 @@ pip install -r requirements.txt
 
 ## Usage
 
-Run any program individually:
-
-```bash
-python 01.py
-python 02.py
-# ... and so on
-```
+Run any notebook individually by opening it in a Jupyter environment (e.g., VS Code, JupyterLab, or Google Colab).
 
 ## Outputs
 
